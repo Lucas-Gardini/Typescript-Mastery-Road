@@ -1,5 +1,3 @@
-// Converte todas as propriedades para opcionais
-
 type nomes = "Lucas" | "Luiz" | "Thiago" | "Yago";
 
 type HomeNavigationPages = Exclude<nomes, "Lucas">;
